@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking = "true" path="/ManageMotel">
+    <Resource name = "ManageMotelDB" auth="Container" type="javax.sql.DataSource"
+    username="sa" password="ruakimqui123"
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://localhost:1433;databaseName=ManageMotel;instanceName=SQLEXPRESS"/>    
+</Context>
